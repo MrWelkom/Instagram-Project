@@ -1,0 +1,154 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 326px;
+  width: 468px;
+}
+.postHeader {
+  display: flex;
+  width: 468px;
+  height: 41px;
+}
+
+.postProfPicBorder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: 41px;
+  width: 41px;
+  background-image: linear-gradient(to bottom left, rgb(181, 0, 181) 18%, red 45%, orange, yellow );
+  margin-right: 10px;
+}
+
+.postProfPic {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  border: 3px solid white;
+  z-index: 1;
+}
+
+.postProfPic img {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  object-fit: cover
+}
+
+.postProfUsername {
+  font-weight: bold;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  margin-right: 4px;
+}
+
+.timePosted {
+  display: flex;
+  align-items: center;
+  color: gray;
+  font-size: 14px;
+}
+
+.timePosted div {
+  width: 3px;
+}
+
+.threeDots {
+  display: flex;
+  justify-content: end;
+  padding-top: 3px;
+  font-size: 20px;
+  font-weight: bold;
+  height: 42px;
+  width: 294px;
+}
+
+.postPicture img {
+  width: 468px;
+  height: 585px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.postOperations {
+  display: flex;
+  justify-content: space-between;
+}
+
+.publicOperations {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  margin-bottom: 12px;
+}
+
+.likes {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 7px; 
+}
+
+.postDescription {
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+
+.addComm {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 15px;
+}
+
+.grayLine {
+  width: 468px;
+  height: 0.5px;
+  background-color: rgb(197, 197, 197);
+  margin-bottom: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+.post-two {
+  display: flex;
+  flex-direction: column;
+  width: 468px;
+  position: relative;
+  left: 326px;
+}
+
+.post-two .postProfPic {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  border: 3px solid white;
+  z-index: 1;
+  margin-right: 7px; 
+} 
+
+.post-two .threeDots {
+  display: flex;
+  justify-content: end;
+  padding-top: 3px;
+  font-size: 20px;
+  font-weight: bold;
+  height: 42px;
+  width: 400px;
+}
+
+.post-two .viewComm {
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 7px;
+}

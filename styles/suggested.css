@@ -1,0 +1,140 @@
+.suggCont {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 464px;
+  width: 319px;
+}
+
+.suggested {
+  display: flex;
+  flex-direction: column;
+  margin: 36px 16px 0px;
+}
+
+.myProf {
+  display: flex;
+  position: relative;
+}
+
+.myProfPic img {
+  height: 44px;
+  width: 44px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 11px;
+  cursor: pointer;
+}
+
+.myProfName {
+  padding-top: 5px;
+}
+
+.myUsername {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.myName {
+  color: gray;
+  font-size: 15px;
+  margin-top: 2px; 
+}
+
+.switchBut {
+  color: #0095f6;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.switchBut:hover {
+  color: rgb(0, 55, 107);
+}
+
+.suggForU {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.suggForU .title {
+  color: gray;
+  font-size: 14px;
+}
+
+.seeAllBut {
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.seeAllBut:hover {
+  color: rgb(175, 175, 175);
+}
+
+.suggProfCont {
+  padding-left: 5px; 
+  margin-top: 17px;
+  margin-bottom: 30px;
+}
+
+.sugg {
+  display: flex;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.suggProfPic img {
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  margin-right: 11px;
+  object-fit: cover;
+}
+
+.suggProfName {
+  padding-top: 5px;
+}
+
+.suggUsername {
+  font-size: 14px;
+}
+
+.followedBy {
+  color: gray;
+  font-size: 12px;
+  margin-top: 2px; 
+}
+
+.followBut {
+  color: #0095f6;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.followBut:hover {
+  color: rgb(0, 55, 107);
+}
+
+.suggLinks {
+  color: rgb(211, 211, 211);
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+.suggCopyright {
+  color: rgb(211, 211, 211);
+  font-size: 13px;
+}

@@ -1,0 +1,63 @@
+aside {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  height: 566px;
+  padding: 8px 12px 20px;
+  border-right: 1px solid rgb(203, 203, 203);
+  position: fixed;
+  background-color: white;
+}
+
+img {
+  width: 22px;
+  height: 22px;
+}
+
+.igName img {
+  height: 60px;
+  width: 100px;
+  margin: 18px 12px 10px;
+  cursor: pointer;
+}
+
+.asideContChild {
+  display: flex;
+  width: 220px;
+  height: 52px;
+  align-items: center;
+  padding-left: 12px;
+  cursor: pointer;
+}
+
+.asideContChild img {
+  margin-right: 18px;
+}
+
+.homeName {
+  font-weight: bold;
+}
+
+.iconName,
+.homeName {
+  height: 25px;
+  padding-top: 13px;
+}
+
+img[src="pictures/profile pictures/mine_prof_pic.jpg"] {
+  border-radius: 50%;
+}
+
+.more {
+  display: flex;
+  width: 208px;
+  height: 52px;
+  align-items: center;
+  padding-left: 12px;
+  padding-top: 7px;
+  cursor: pointer;
+}
+
+.more img {
+  margin-right: 18px;
+}
